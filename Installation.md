@@ -133,5 +133,5 @@ pip install django
 
 To install Docker, visit the [Docker website](https://www.docker.com/products/docker-desktop) and download the installer for your operating system.
 Click on the installer and follow the installation steps. 
-
-### `open this link [Django Project](new_blank_website.md) to continue create a new Django project website`
+---
+open this link [Django Project](new_blank_website.md) to continue create a new Django project website
