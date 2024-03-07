@@ -161,8 +161,35 @@ DATABASES = {
 - **Purpose**:
   - Enables Django to interact with the MySQL database for storing and retrieving data required by the web application.
 
-### ❿ Now you can create apps within website
+### ❿ Update the urls.py file located in the `config` folder:
 
+```python
+# urls.py
+from django.contrib import admin
+from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    ...
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+```
+
+Explanation:
+- **urlpatterns Configuration**:
+  - Specifies the URL patterns for the web application.
+  - Includes the default URL pattern for the Django admin site.
+- **if settings.DEBUG Configuration**:
+  - Checks if the application is running in debug mode.
+  - If true, appends URL patterns for serving media and static files during development.
+- **Purpose**:
+  - Enables the web application to serve media and static files when running in debug mode.
+  
 ---
 ### 🥳 You have successfully set up a Django project on Windows
 
