@@ -54,12 +54,25 @@ This command creates a Django project named `config` in the current directory (`
 
 ```bash
 mkdir templates
+```
+```
 cd templates
+```
+```
 mkdir base components
+```
+```
 cd ..
+```
+```
 mkdir assets
+```
+```
 cd assets
+```
+```
 mkdir css js images videos fonts
+```
 cd ..
 ```
 Explanation:
