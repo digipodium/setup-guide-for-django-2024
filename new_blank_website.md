@@ -89,26 +89,31 @@ Explanation:
 
 ### ❽ Open `settings.py` file located in the `config` folder and make the following changes:
 
+###### set the templates directory in TEMPLATE section
 ```python
 # settings.py
 ...
 TEMPLATES = [
     {
         ...
-        'DIRS': [BASE_DIR.joinpath('templates')],
+        'DIRS': [BASE_DIR.joinpath('templates')], # this line only
         ...
     },
 ]
 ...
+```
+###### Fix the timezone to your country
+```python
 TIME_ZONE = 'Asia/Kolkata'
-
+```
+###### Update the static files section with assets and media
+```
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR.joinpath('assets')]
 STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR.joinpath('media')
-...
 ```
 
 Explanation:
