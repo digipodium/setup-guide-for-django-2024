@@ -142,7 +142,14 @@ MEDIA_ROOT Configuration:
 - Defines the directory where uploaded media files will be stored.
 
 ### ❾ Inside `settings.py`, update the database settings to use MySQL and install the required libraries:
-
+##### Install MySQL server & configure it
+open mysql command line client and create your project database
+```sql
+CREATE DATABASE IF NOT EXISTS db_name;
+```
+```sql
+SHOW DATABASES:
+```
 ##### Install MySQL client using the terminal
 ```shell 
 pip install mysqlclient
