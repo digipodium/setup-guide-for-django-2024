@@ -10,6 +10,6 @@
 3. [Installation](Installation.md)
     - open [Installation](Installation.md)
 4. [Usage](new_blank_website.md) 
-    - open [Django Project](new_blank_website.md)
+    - create [Django Project](new_blank_website.md)
 6. [License](#license)
     - The license for this project is [MIT](LICENSE)
