@@ -145,12 +145,12 @@ MEDIA_ROOT Configuration:
 ##### Install MySQL server & configure it
 open mysql command line client and create your project database
 ```sql
-CREATE DATABASE IF NOT EXISTS db_name;
+CREATE DATABASE IF NOT EXISTS <db_name>;
 ```
 ```sql
-SHOW DATABASES:
+SHOW DATABASES;
 ```
-##### Install MySQL client using the terminal
+##### Install MySQL client using the terminal in vscode
 ```shell 
 pip install mysqlclient
 ```
