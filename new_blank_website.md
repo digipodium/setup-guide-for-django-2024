@@ -73,8 +73,10 @@ cd assets
 ```
 mkdir css js images videos fonts
 ```
+```
 cd ..
 ```
+
 Explanation:
 - `mkdir templates`: Creates a directory named 'templates' in the current location.
 - `cd templates`: Changes the current directory to 'templates'.
