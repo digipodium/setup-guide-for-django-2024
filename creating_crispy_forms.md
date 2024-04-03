@@ -118,3 +118,14 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 ### ❾ Add the crispy forms template tag to the html template
 ```html
+# create_profile.html
+...
+{% load crispy_forms_tags %}
+...
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit">Create</button>
+</form>
+...
+```
