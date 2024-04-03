@@ -64,7 +64,9 @@ def create_profile(request):
     if request.method == 'POST':
         form = ProfileForm(request.POST, request.FILES) # filled form
         if form.is_valid():
-            form.save()
+            profile = form.save(commit=False)
+            profile.user = request.user
+            profile.save()
             return redirect('home')
     else:
         form = ProfileForm() # empty form
@@ -93,3 +95,26 @@ urlpatterns = [
     <button type="submit">Create</button>
 </form>
 ```
+
+### ❼ Add (intsall) the library called [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/) to the project
+```bash
+pip install crispy-bootstrap5
+```
+
+### ❽ Add the crispy forms template pack to the `settings.py` file
+```python
+# settings.py
+INSTALLED_APPS = (
+    ...
+    "crispy_forms",
+    "crispy_bootstrap5",
+    ...
+)
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+```
+
+### ❾ Add the crispy forms template tag to the html template
+```html
