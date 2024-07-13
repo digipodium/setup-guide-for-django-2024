@@ -89,7 +89,7 @@ Explanation:
 
 ### ❽ Open `settings.py` file located in the `config` folder and make the following changes:
 
-###### set the templates directory in TEMPLATE section
+###### set the templates directory in TEMPLATES section
 ```python
 # settings.py
 ...
