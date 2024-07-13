@@ -141,6 +141,7 @@ MEDIA_ROOT Configuration:
 
 - Defines the directory where uploaded media files will be stored.
 
+## Optional - MySQL database configuration
 ### ❾ Inside `settings.py`, update the database settings to use MySQL and install the required libraries:
 ##### Install MySQL server & configure it
 open mysql command line client and create your project database
@@ -188,6 +189,7 @@ DATABASES = {
 - **Purpose**:
   - Enables Django to interact with the MySQL database for storing and retrieving data required by the web application.
 
+## Important 
 ### ❿ Update the urls.py file located in the `config` folder:
 
 ```python
