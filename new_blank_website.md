@@ -102,7 +102,7 @@ TEMPLATES = [
 ]
 ...
 ```
-###### Fix the timezone to your country
+###### Fix the timezone to your country (for my brilliant students, jo h likha usko hata ke likhna h)
 ```python
 TIME_ZONE = 'Asia/Kolkata'
 ```
