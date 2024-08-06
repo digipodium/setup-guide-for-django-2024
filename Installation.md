@@ -1,4 +1,8 @@
+
 # Django Setup Guide 2024
+[< Back](README.md)
+
+
 
 Welcome to the Django Website Setup Guide! This guide is designed to help you set up a Django web development environment for creating powerful and dynamic web applications. This guide will walk you through the installation of the necessary tools and software, as well as the creation of a new Django project.
 ## Table of Contents

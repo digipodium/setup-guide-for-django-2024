@@ -8,7 +8,10 @@ python --version
 ### ❷ Install Django using pip and verify the version:
 
 ```bash
-pip install django
+pip install django django-browser-reload crispy-bootstrap5
+```
+and then check the version using the following command:
+```bash
 django-admin --version
 ```
 
@@ -226,7 +229,14 @@ Explanation:
   - Enables the web application to serve media and static files when running in debug mode.
   
 ---
+
 ### 🥳 You have successfully set up a Django project on Windows
+
+### ⓫ Run the following command in the terminal to check if the project runs:
+```bash
+python manage.py runserver
+```
 
 --- 
 created by `team digipodium` with ❤️ & `python`
+
