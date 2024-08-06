@@ -1,5 +1,5 @@
 # Django website creation
-### ❶ Ensure that the Python version installed with Miniconda is greater than 3.9 by running the following command in the Anaconda Prompt:
+### ❶ Ensure that the Python version installed with Miniconda is greater than 3.9 by running the following command in the Anaconda Prompt (recommended) or cmd:
 
 ```bash
 python --version
@@ -22,11 +22,17 @@ cd Documents
 
 ##### Create a blank directory:
 
+(dont copy the following code, its just an syntax example:)
 ```bash
-mkdir my_django_project
-cd my_django_project
+mkdir <my_django_project>
+cd <my_django_project>
 ```
-
+Replace `<my_django_project>` with the project name
+example:
+```bash
+mkdir blog_website
+cd blog_website
+```
 ### ❹ Launch VSCode using the following command:
 
 ```bash
