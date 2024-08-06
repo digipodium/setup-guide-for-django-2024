@@ -108,11 +108,11 @@ TIME_ZONE = 'Asia/Kolkata'
 ```
 ###### Update the static files section with assets and media
 ```python
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR.joinpath('assets')]
 STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR.joinpath('media')
 ```
 
