@@ -236,7 +236,10 @@ Explanation:
 ```bash
 python manage.py runserver
 ```
-
+### 3rd party plugins
+- django-browser-reload [instructions](https://pypi.org/project/django-browser-reload/)
+- crispy-bootstrap5 [instructions](https://pypi.org/project/crispy-bootstrap5/)
+- django-filter [instructions](https://pypi.org/project/django-filter/)
 --- 
 created by `team digipodium` with ❤️ & `python`
 
