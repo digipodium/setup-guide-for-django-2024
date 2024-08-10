@@ -68,7 +68,7 @@ mkdir templates
 cd templates
 ```
 ```
-mkdir base components
+mkdir layout components
 ```
 ```
 cd ..
